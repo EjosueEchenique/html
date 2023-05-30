@@ -1,0 +1,64 @@
+body{background: rgb(239, 237, 236);}
+
+    .contenedor{
+        width: 500px;
+        height: 500px;
+        background: lightcoral;
+        position: static;
+        margin: 100px;
+    }
+
+    
+    .caja1{
+        background: blueviolet;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    .caja2{ 
+        background: yellow;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    .caja3{
+        background: rgb(6, 19, 24);
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .caja4{
+        background: midnightblue;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .TITULO{
+        display: inline-block;
+        position: fixed;
+        background: rebeccapurple;
+        opacity: 1;
+        top: 30PX;
+        padding: 20PX;
+        position: fixed;
+        z-index: 30;
+
+        
+        
+    }
+    .TEXTO{
+        font-size: 80px;
+    }
+
